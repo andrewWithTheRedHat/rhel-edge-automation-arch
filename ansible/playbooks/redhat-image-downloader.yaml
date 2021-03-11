@@ -1,0 +1,9 @@
+- name: Generate In-Memory Inventory of httpd Pod
+  hosts: localhost
+  roles:
+    - role: openshift-httpd-pod-imi
+
+- name: Download Red Hat Images
+  hosts: httpd_pod_group
+  roles:
+    - role: redhat-image-downloader

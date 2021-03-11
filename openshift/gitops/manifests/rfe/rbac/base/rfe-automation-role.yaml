@@ -19,10 +19,18 @@ rules:
       - pods/exec
     verbs:
       - update
+      - create
   - apiGroups:
       - kubevirt.io
     resources:
       - virtualmachineinstances
+    verbs:
+      - get
+      - list
+  - apiGroups:
+      - route.openshift.io
+    resources:
+      - routes
     verbs:
       - get
       - list
