@@ -1,0 +1,77 @@
+name = "kernel-rt-docker-ce"
+description = "8.3 kernel patched with docker-ce"
+version = "0.0.1"
+modules = []
+groups = []
+
+[[packages]]
+name = "docker-ce-cli"
+version = "*"
+
+[[packages]]
+name = "docker-ce-selinux"
+version = "*"
+
+[[packages]]
+name = "docker-ce-selinux"
+version = "*"
+
+[[packages]]
+name = "docker-ce"
+version = "*"
+
+[[packages]]
+name = "docker-ce-selinux"
+version = "*"
+
+[[packages]]
+name = "docker-ce-rootless-extras"
+version = "*"
+
+[[packages]]
+name = "docker-ce-selinux"
+version = "*"
+
+[[packages]]
+name = "kernel-rt"
+version = "*"
+
+[[packages]]
+name = "kernel-rt-core"
+version = "*"
+
+[[packages]]
+name = "kernel-rt-devel"
+version = "*"
+
+[[packages]]
+name = "kernel-rt-modules"
+version = "*"
+
+[[packages]]
+name = "kernel-rt-modules-extra"
+version = "*"
+
+[[packages]]
+name = "rteval"
+version = "*"
+
+[[packages]]
+name = "rteval-common"
+version = "*"
+
+[[packages]]
+name = "rteval-loads"
+version = "*"
+
+[[packages]]
+name = "rt-tests"
+version = "*"
+
+[[packages]]
+name = "rt-setup"
+version = "*"
+
+[[packages]]
+name = "tuna"
+version = "*"
